@@ -1,8 +1,8 @@
-firstname,lastname,street,city,state,postcode
-John,Doe,120 jefferson st.,Riverside, NJ,8075
-Jack,McGinnis,220 hobo Av.,Phila, PA,9119
-"John ""Da Man""",Repici,120 Jefferson St.,Riverside, NJ,8075
-Stephen,Tyler,"7452 Terrace ""At the Plaza"" road",SomeTown,SD,91234
-,Blankman,,SomeTown, SD,298
-"Joan ""the bone"", Anne",Jet,"9th, at Terrace plc",Desert City,CO,123
-Loc,Nguyen,123 Lac Long Quan,Khanh Hoa,VN,75000
+firstname,lastname,middlename,birthdate,street,city,state,postcode
+John,Doe,Stephen,2/17/1999,120 jefferson st.,Riverside, NJ,8075
+Jack,McGinnis,Jordan,3/18/2000,220 hobo Av.,Phila, PA,9119
+"John ""Da Man""",Repici,Peter,04/19/2001,120 Jefferson St.,Riverside, NJ,8075
+Stephen,Tyler,Parker,5/20/1999,"7452 Terrace ""At the Plaza"" road",SomeTown,SD,91234
+Tony,Blankman,Sydney,6/19/2000,1999 Boshton,SomeTown, SD,298
+"Joan ""the bone"", Anne",Bruce,Jet,1/1/2000,"9th, at Terrace plc",Desert City,CO,123
+Loc,Nguyen,Vo,2/17/1999,123 Lac Long Quan,Khanh Hoa,VN,75000
