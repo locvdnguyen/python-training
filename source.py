@@ -85,6 +85,7 @@ def save_as_csv(file_name: str, records: [dict]):
 
 def main():
     # Log is printed to file /log/logs.txt
+    logger.info("Start running source...")
     records = read_csv("addresses.csv")
     save_as_csv("addresses-2.csv", records)
 
@@ -94,8 +95,10 @@ def main():
     student.set_name("Chino")
     student.set_university("Stanford University")
 
+    # Log is printed to file /log/logs.txt
+    logger.info("Source stopped!")
+
 
 if __name__ == "__main__":
-    logger.info("Start running source...")
     main()
-    logger.info("Source stopped!")
+
