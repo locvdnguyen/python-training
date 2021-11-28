@@ -1,3 +1,4 @@
+import logging.config
 import unittest
 from unittest.mock import patch
 import source
@@ -7,15 +8,16 @@ from datetime import datetime
 
 class TestSource(unittest.TestCase):
     def test_convert_string_to_datetime(self):
-        inputs = ["02/17/1999", "05/26/1999", "12/12/0001"]
+        inputs_date = ["02 17 1999", "05/26/1999", "12-12-01"]
+        inputs_format = ["%m %d %Y", "%m/%d/%Y", "%d-%m-%y"]
         expected_results = [
             datetime(1999, 2, 17),
             datetime(1999, 5, 26),
-            datetime(1, 12, 12)
+            datetime(2001, 12, 12)
         ]
 
         for index in range(0, 3):
-            actual_result = source.convert_string_to_datetime(inputs[index])
+            actual_result = source.convert_string_to_datetime(inputs_date[index], inputs_format[index])
             self.assertEqual(expected_results[index], actual_result)
 
     def test_calculate_age(self):
