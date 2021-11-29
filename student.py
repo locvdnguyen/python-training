@@ -1,11 +1,18 @@
+"""
+This module provide student class
+"""
 import logging
 
 logger = logging.getLogger("testLogger")
 
 
 class Student:
+    """
+    This student class is used for logger demo
+    """
     def __init__(self, name: str, age: int, university: str):
-        logger.info("Generating new student with name %s, age %s, university %s...", name, age, university)
+        logger.info("New student with name %s, age %s, university %s...",
+                    name, age, university)
         self.name = name
         self.age = age
         self.university = university
@@ -19,5 +26,6 @@ class Student:
         self.name = name
 
     def set_university(self, university: str):
-        logger.debug("Updating student university from %s to %s...", self.university, university)
+        logger.debug("Updating student university from %s to %s...",
+                     self.university, university)
         self.university = university

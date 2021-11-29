@@ -1,8 +1,8 @@
-fullname,age,firstname,lastname,middlename,birthdate,street,city,state,postcode
-Doe Stephen John,22,John,Doe,Stephen,2/17/1999,120 jefferson st.,Riverside, NJ,8075
-McGinnis Jordan Jack,21,Jack,McGinnis,Jordan,3/18/2000,220 hobo Av.,Phila, PA,9119
-"Repici Peter John ""Da Man""",20,"John ""Da Man""",Repici,Peter,04/19/2001,120 Jefferson St.,Riverside, NJ,8075
-Tyler Parker Stephen,19,Stephen,Tyler,Parker,5/20/2002,"7452 Terrace ""At the Plaza"" road",SomeTown,SD,91234
-Blankman Sydney Tony,18,Tony,Blankman,Sydney,6/19/2003,1999 Boshton,SomeTown, SD,298
-"Bruce Jet Joan ""the bone"", Anne",17,"Joan ""the bone"", Anne",Bruce,Jet,1/1/2004,"9th, at Terrace plc",Desert City,CO,123
-Nguyen Vo Loc,16,Loc,Nguyen,Vo,2/17/2005,123 Lac Long Quan,Khanh Hoa,VN,75000
+fullname,age
+Doe Stephen John,22
+McGinnis Jordan Jack,21
+"Repici Peter John ""Da Man""",20
+Tyler Parker Stephen,19
+Blankman Sydney Tony,18
+"Bruce Jet Joan ""the bone"", Anne",17
+Nguyen Vo Loc,16

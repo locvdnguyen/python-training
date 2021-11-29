@@ -1,12 +1,19 @@
-import logging.config
+"""
+Unit testing for source
+"""
 import unittest
 from unittest.mock import patch
-import source
-import pandas as pd
 from datetime import datetime
+import pandas as pd
+from source import FileHandler
+import source
 
 
 class TestSource(unittest.TestCase):
+    """
+    Unit testing class, inherits from unittest.TestCase
+    """
+
     def test_convert_string_to_datetime(self):
         inputs_date = ["02 17 1999", "05/26/1999", "12-12-01"]
         inputs_format = ["%m %d %Y", "%m/%d/%Y", "%d-%m-%y"]
@@ -17,7 +24,8 @@ class TestSource(unittest.TestCase):
         ]
 
         for index in range(0, 3):
-            actual_result = source.convert_string_to_datetime(inputs_date[index], inputs_format[index])
+            actual_result = source.convert_to_datetime(inputs_date[index],
+                                                       inputs_format[index])
             self.assertEqual(expected_results[index], actual_result)
 
     def test_calculate_age(self):
@@ -42,26 +50,18 @@ class TestSource(unittest.TestCase):
             })
             expected_result = [
                 {
-                    "firstname": "Loc",
-                    "lastname": "Nguyen",
-                    "middlename": "Duc",
-                    "birthdate": "02/17/1999",
-                    "country": "VN",
                     "fullname": "Nguyen Duc Loc",
                     "age": 22
                 },
                 {
-                    "firstname": "Witch",
-                    "lastname": "Harry",
-                    "middlename": "Potter",
-                    "birthdate": "01/12/2004",
-                    "country": "England",
                     "fullname": "Harry Potter Witch",
                     "age": 17
                 }
             ]
             file_name = "my-address.csv"
-            actual_result = source.read_csv(file_name)
+            file_handler = FileHandler()
+            file_handler.read_csv(file_name)
+            actual_result = file_handler.records
 
             mock_pd_read_csv.assert_called_with(file_name)
             self.assertEqual(expected_result, actual_result)
