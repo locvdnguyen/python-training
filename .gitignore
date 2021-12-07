@@ -132,5 +132,6 @@ dmypy.json
 .idea/
 
 # Custom
+.DS_Store
 csv-pandas-comparison/sample
 

@@ -2,7 +2,7 @@
 Exercise 01 requirements:
     1/ Read data from data_1.csv & data_2.csv, load into a list of dictionaries
     2/ Filter the data whose state is not null or site_number is not null
-    3/ Save the fitered data to "output.csv"
+    3/ Save the fitered data to "output.txt"
 """
 
 import csv
