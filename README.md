@@ -18,3 +18,11 @@ Greenphore project training - Python
     1/ From https://exchangeratesapi.io/, get latest exchange rate of EUR
     2/ Get a list of exchange rate from March 01 2020 - March 10 2020 of EUR - JPY
     3/ Get Max & Min & average value  of that list.
+
+## Exercise 03: CSV practice
+    This exercise mainly focuses on using pandas to manipulate the csv file.
+    Requirements:
+        1/ Read data from a provided file and count how many rows
+        2/ Remove duplicate rows
+        3/ Capital the attendee names
+        4/ Rewrite the code above in Python Class

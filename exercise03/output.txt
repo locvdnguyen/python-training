@@ -1,0 +1,14 @@
+attendee_id,event,attendee_name
+1,training_1,Joe Smith
+2,lunch,Linda Jones
+3,training_2,Alison Lee
+4,training_1,John Doe
+3,training_4,Alison Lee
+4,training_3,John Doe
+1,dinner,Joe Smith
+2,training_1,Linda Jones
+1,lunch,Joe Smith
+1,training_2,Joe Smith
+2,training_4,Linda Jones
+3,training_3,Alison Lee
+4,dinner,John Doe
