@@ -23,6 +23,6 @@ Greenphore project training - Python
     This exercise mainly focuses on using pandas to manipulate the csv file.
     Requirements:
         1/ Read data from a provided file and count how many rows
-        2/ Remove duplicate rows
-        3/ Capital the attendee names
+        2/ Remove duplicated rows
+        3/ Capitalize the attendee names
         4/ Rewrite the code above in Python Class
