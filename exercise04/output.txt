@@ -1,0 +1,16 @@
+first_name,last_name,profession,last_name_size
+J,Smith,Doctor,5
+M,Smith,Doctor,5
+L,Simpson,Musician,7
+J,Thorpe,Athlete,6
+L,Ciccarelli,Accountant,10
+S,Stanitz,Artist,7
+J,McElroy,Producer,7
+K,Flanagan,Musician,8
+M,Muratore,Teacher,8
+L,Kyle,Collector,4
+D,Giordano,Tutorer,8
+J,Lewin,Assistant,5
+S,McWilliams,Assistant,10
+M,Kyle,Teacher,4
+M,O'keefe,Musician,7
