@@ -26,3 +26,34 @@ Greenphore project training - Python
         2/ Remove duplicated rows
         3/ Capitalize the attendee names
         4/ Rewrite the code above in Python Class
+
+## Exercise 04: Mock interview
+    This exercise mainly focuses on reading .csv file
+    Requirements:
+        1/ Read as list of dictionaries
+        2/ Replace the middle name column with the first character
+        3/ Add a last name size column
+        4/ Export the result to a csv file
+
+## Exercise 05: CSV practice
+    Requirements:
+        1/ Load data from two files below into a dictionary, remove duplicates and print it
+        2/ Add a key and create value for Full Name. Then sort it by Full Name
+        3/ Make Full Name in Camel format
+            ex: “Vinh ngoc Phan” should be changed to “Vinh Ngoc Phan”
+        4/ Set Middle Name in only one character
+            ex: “Vinh ngoc Phan” should be changed to “Vinh N Phan”
+        5/ Only get list of female employees have team and joined since July 15, 2019
+
+## Exercise 06: Mock interview
+    Requirements:
+        1/ Load data from .csv file as a list of dictionaries
+        2/ Group the data based on license number:
+            US: first 6 characters are alphabetic,
+                next 5 characters are numbers
+            UK: first character is in alphabet, followed by hyphen,
+                next 8 characters are numbers
+            CA: first 3 characters are in alphabet,
+                followed by a hyphen, 6 numbers, a hyphen,
+                and 2 alphabetic characters
+        3/ Write unit testing
