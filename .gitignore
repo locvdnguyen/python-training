@@ -134,4 +134,8 @@ dmypy.json
 # Custom
 .DS_Store
 csv-pandas-comparison/sample
-
+csv-pandas-comparison/input.csv
+csv-pandas-comparison/input-big.csv
+csv-pandas-comparison/sample-input.csv
+csv-pandas-comparison/sample-output.csv
+csv-pandas-comparison/output.csv
